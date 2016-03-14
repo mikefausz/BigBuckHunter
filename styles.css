@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: monospace;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8); }
+
+.background-image {
+  background-image: url("https://images.unsplash.com/photo-1426170042593-200f250dfdaf?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1275");
+  background-size: cover;
+  display: block;
+  height: 800px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1; }
+
+.content {
+  top: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 999; }
+
+section {
+  display: none; }
+
+.visible {
+  display: block; }
+
+.hidden {
+  display: none; }
+
+.container {
+  width: 75%;
+  margin: auto; }
+
+#home .container {
+  text-align: center; }
+
+#home img {
+  bottom: -30%;
+  left: 25%;
+  position: absolute;
+  z-index: -1; }
+
+#home h2 {
+  font-size: 2rem;
+  position: absolute;
+  left: 45%;
+  bottom: 10%; }
+
+#home h2:hover {
+  color: #E87600;
+  cursor: pointer; }
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Permanent Marker', sans-serif; }
+
+#option-box {
+  display: flex;
+  justify-content: space-between; }
+
+.col-3 {
+  width: 27%;
+  display: inline-block;
+  font-size: 1rem; }
+  .col-3 .photo-box {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .col-3 img {
+    width: 100%; }
+  .col-3 .photo-box:hover {
+    outline: #E87600 7px solid;
+    cursor: pointer; }
+  .col-3 ul {
+    list-style-type: none;
+    padding: 0; }
+  .col-3 h2 {
+    font-size: 1.5rem;
+    font-family: 'Permanent Marker', sans-serif; }
+  .col-3 .map-box {
+    background-size: cover;
+    background-position: center; }
+
+span {
+  font-family: 'Permanent Marker', sans-serif; }
+
+#gameplay h1 {
+  top: 26%;
+  position: absolute;
+  right: 36%;
+  font-size: 5rem; }
+
+#gameplay h2 {
+  font-size: 2rem;
+  margin: 0 30px; }
+
+#beer {
+  position: absolute;
+  right: -5%;
+  width: 41%;
+  bottom: -56%; }
+
+#beerUp {
+  position: absolute;
+  right: 23%;
+  bottom: -4%; }
+
+.critter-box {
+  position: absolute; }
+  .critter-box img {
+    width: 100%; }
+
+#gameover {
+  text-align: center;
+  font-size: 2rem; }
+  #gameover h3:hover {
+    color: #E87600;
+    cursor: pointer; }
